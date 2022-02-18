@@ -1,7 +1,8 @@
 const onEvent = (e) => disp(e);
 const clicks = document.querySelectorAll('.click');
-const foo = () => console.log('I am foo');
-const foo1 = () => console.log('I am foo1');
+const iam = document.querySelector('.iam');
+const foo = () => (iam.textContent = 'I am student');
+const foo1 = () =>(iam.textContent = 'I am alcohol');
 
 let evHUB = {
   foo,
