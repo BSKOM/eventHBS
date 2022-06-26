@@ -4,3 +4,6 @@
 .iam{
   font-size: 32px;
 }
+.img{
+  transform:scale(0.01);
+}
